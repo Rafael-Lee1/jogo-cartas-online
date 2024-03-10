@@ -1,0 +1,24 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jogo de Cartas Online</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Jogo de Cartas Online</h1>
+    <div id="player1">
+        <h2>Jogador 1</h2>
+        <button onclick="playCard(1)">Jogar Carta</button>
+        <p>Carta Jogada: <span id="player1Card"></span></p>
+    </div>
+    <div id="player2">
+        <h2>Jogador 2</h2>
+        <button onclick="playCard(2)">Jogar Carta</button>
+        <p>Carta Jogada: <span id="player2Card"></span></p>
+    </div>
+    <h2>Vencedor: <span id="winner"></span></h2>
+
+    <script src="script.js"></script>
+</body>
+</html>
